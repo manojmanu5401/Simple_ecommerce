@@ -1,0 +1,66 @@
+/* .......................................header part.......................................... */
+.head{
+    padding-top: 20px;
+}
+.button{
+    text-align: right;
+}
+.btn{
+    margin-left: 5;
+    margin-right: 5;
+}
+
+
+/* ............................................card style........................................ */
+.bod{
+    padding-top: 20px;
+}
+.check{
+    display: flex;
+}
+.card-body{
+    text-align: center;
+}
+.card{
+    position: relative;
+    width: auto;
+    float: left;
+    width: 16rem;
+    padding-bottom: 20px; 
+    margin: 0;
+}
+.c{
+    position: absolute;
+    right: 7px;
+    top: 3px;
+}
+.item_name{
+    font-weight: bold;
+}
+
+/* ...........................responsive........................................... */
+@media screen and (max-width:1024px){
+    .card{
+        width: auto;
+        float: left;
+        width: 10rem;
+    }   
+    .bod{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:425px){
+    .card{
+        width: auto;
+        float: left;
+        width: 14rem;
+        text-align: center;
+    }   
+}
+
+@media screen and (max-width:320px){
+    .btn{
+        margin: 0;
+    }
+}
